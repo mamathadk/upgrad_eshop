@@ -1,0 +1,63 @@
+/* Global Box and Container Styles */
+.box-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-details-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Align content to the top for minimal space */
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+}
+
+.order-card {
+  width: 90%;
+  max-width: 800px;
+  padding: 35px 31px 24px 24px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Box shadow for content */
+}
+
+.grid-item-product {
+  padding-right: 2rem;
+  border-right: 2px solid #ddd;
+  /* Vertical line divider */
+}
+
+.grid-item-address {
+  padding-left: 1rem;
+}
+
+.price-highlight {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.order-descr {
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* .button-back {
+  color: black;
+} */
+
+/* .button-place-order {
+  background-color: #3f51b5;
+} */

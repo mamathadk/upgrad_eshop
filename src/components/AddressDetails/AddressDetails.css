@@ -1,0 +1,45 @@
+/* Box Styles */
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-address {
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+
+
+.save-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+  width: 10%;
+}
+
+.nav-buttons .back-button {
+  color: black;
+}
+
+.nav-buttons .next-button {
+  background-color: #3f51b5;
+}

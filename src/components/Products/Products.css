@@ -1,0 +1,146 @@
+/* Products.css */
+
+/* Header Styles */
+.header {
+    background-color: #3f51b5;
+    color: white;
+}
+
+/* Product Info Box */
+
+
+
+/* Category Tabs Container */
+.category-tabs {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Sort Dropdown Container */
+.sort-dropdown {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Product Cards Grid */
+/* .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    padding: 2rem;
+} */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.product-grid:only-child {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual Product Card */
+/* .product-card {
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+
+
+/* No Products Found */
+.no-products {
+    text-align: center;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    color: #888;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row;
+    /* Aligns items horizontally */
+    justify-content: space-between;
+    /* Adds space between name and price */
+    width: 100%;
+    /* Ensures proper alignment across the card */
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+/* Individual Product Card */
+.product-card {
+    flex: 1 1 calc(33.33% - 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 345px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* height: 100%; */
+    padding-bottom: 0;
+}
+
+
+
+/* Card Content (Text and Description) */
+.card-content {
+    flex-grow: 1;
+    /* Ensures it grows to fill space above CardActions */
+    display: flex;
+    flex-direction: column;
+    /* Stacks text and description vertically */
+    justify-content: flex-start;
+    padding: 1rem;
+}
+
+/* Card Actions */
+/* .product-card .MuiCardActions-root {
+    margin-top: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+} */
+/* Card Actions */
+.product-card .MuiCardActions-root {
+    display: flex;
+    justify-content: space-between;
+    /* Separates BUY button and icons */
+    align-items: center;
+    padding: 1rem;
+    max-width: 345px;
+}
+
+/* BUY Button Styling */
+.product-card .MuiCardActions-root .buy-button {
+    justify-content: flex-start;
+    /* Aligns BUY button to the start */
+}
+
+/* Edit and Delete Icon Styling */
+.product-card .MuiCardActions-root .action-icons {
+    display: flex;
+    gap: 10px;
+    /* Adds a small gap between icons */
+}
+
+/* Loader Container */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust based on the layout requirements */
+    width: 100%;
+}

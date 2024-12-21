@@ -1,0 +1,43 @@
+.signup-wrapper {
+  padding: 2rem;
+  background-color: #f4f4f9;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 5px 50px 3rem 50px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.signup-form .icon-wrapper {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 9px auto 1rem;
+  margin-bottom: -15px;
+}
+
+.signup-form .MuiButton-root {
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+.login-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        background-color: #f5f5f5;
+}
+
+.login-second-wrapper{
+    background-color: white;
+          padding: 30px;
+          border-radius: 8px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          width: 100%;
+        max-width: 400px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0px auto 1rem;
+  }
+  .link-wrapper {
+    margin-top: 1rem; /* Adds 1rem space between button and link */
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  
