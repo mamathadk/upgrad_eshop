@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 const API_BASE_URL = "https://dev-project-ecommerce.upgrad.dev/api";
 
 const TOKEN =
-  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vQWRtaW4xMjM0QGRlbW8uY29tIiwiaWF0IjoxNzM0NzkyMTcwLCJleHAiOjE3MzQ4MDA1NzB9.lofA72auhvkU80axHfsVhtvpha-6rKfV9_0291JNWgj2NY8U3VmVSofnxSotAUSJBh70vK-vtsOv08LtbbxnHw";
+  "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkZW1vQWRtaW4xMjM0QGRlbW8uY29tIiwiaWF0IjoxNzM0ODQwMjYwLCJleHAiOjE3MzQ4NDg2NjB9.EQ_q7YSvTJVtzA1UbAS40v93hEVHEUr-o9j_UnqofgRy9xGc1QSqOOYGiErndUzsca658Ri5cH_TON4oUHdClA";
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
